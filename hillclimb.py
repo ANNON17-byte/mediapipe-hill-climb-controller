@@ -62,6 +62,10 @@ with mp_holistic.Holistic(
                 pydirectinput.keyUp('right')
                 status = "BRAKE"
 
+            else:
+               pydirectinput.keyUp('right')
+               pydirectinput.keyUp('left')
+               status = "IDLE"
 
         cv2.putText(
             image,
