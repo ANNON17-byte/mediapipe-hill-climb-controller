@@ -79,4 +79,4 @@ with mp_holistic.Holistic(
             break
 
 cap.release()
-cv2.destroyAllWindows() 
+cv2.destroyAllWindows()
